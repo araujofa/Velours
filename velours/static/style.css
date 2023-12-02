@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+nav {
+  padding: 10px;
+  background-color: #EFEFEF;
+}
+nav img {
+  width: 2%;
+}
+
+div.links-nav {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+div.links-nav a {
+  text-decoration: none;
+  color: black;
+}
+div.links-nav a.border-a {
+  border-right: 2px solid rgba(100, 100, 100, 0.7098039216);
+  padding-right: 50px;
+}
+
+div.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section.nav-2 {
+  background-color: #F9F8F8;
+  box-shadow: 0px 5px 10px rgba(206, 206, 206, 0.3843137255);
+  padding: 10px;
+  height: 12vh;
+  display: flex;
+}
+section.nav-2 div.flex-nav-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 auto;
+}
+section.nav-2 div.flex-nav-2 input {
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgba(203, 203, 203, 0.6);
+  transition: 0.5s;
+  box-shadow: 0px 5px 10px rgba(206, 206, 206, 0.3843137255);
+}
+section.nav-2 div.flex-nav-2 input:hover {
+  transform: scale(102%);
+}
+section.nav-2 div.flex-nav-2 input::-moz-placeholder {
+  color: rgba(94, 94, 94, 0.7176470588);
+}
+section.nav-2 div.flex-nav-2 input::placeholder {
+  color: rgba(94, 94, 94, 0.7176470588);
+}
+section.nav-2 div.flex-nav-2 input:focus {
+  outline: none;
+}
+section.nav-2 div.flex-nav-2 i {
+  color: black;
+}
+section.nav-2 img {
+  width: 10%;
+}
+section.nav-2 ul {
+  list-style: none;
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+section.nav-2 ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+section.nav-2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+section.nav-2 ul li:hover {
+  border-bottom: 1.5px solid #454545;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

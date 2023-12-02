@@ -1,0 +1,48 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="{% static 'img/Simbolo.png' %}">
+        <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
+        <script src="https://kit.fontawesome.com/f0a141e5be.js" crossorigin="anonymous"></script>
+        <title>Velours</title>
+    </head>
+    <body>
+
+        <nav>
+            <div class="container-nav">
+
+                <img src="{% static 'img/Simbolo.png' %}">
+
+                <div class="links-nav">
+                    <a href="#" class="border-a">Ajuda</a>
+                    <a href="#">Entrar</a>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <section class="nav-2">
+            <div class="flex-nav-2">
+                <img src="{%static 'img/nome.png' %}">
+                <ul>
+                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                </ul>
+                <input type="search" placeholder="Buscar">
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </section>
+        
+        {% block content %}{% endblock %}
+
+    </body>
+</html>
